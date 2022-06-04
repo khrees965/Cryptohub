@@ -1,0 +1,180 @@
+* {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Inter",sans-serif !important;
+  background-color: #e8e8e8 !important;
+}
+
+.menu-btn {
+  width: 1.7rem;
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+
+.logo-image {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.brand-name {
+  color: #000 !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.links a {
+  font-size: .9rem;
+  font-weight: 500 !important;
+  color: #000;
+}
+
+.head-image {
+  position: absolute;
+  width: 50%;
+  height: 75vh;
+  z-index: 1;
+  right: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wrapper {
+  background-color: #e8e8e8;
+}
+
+.head-title h1 {
+  font-size: 3.1rem;
+  margin: 100px 0 20px 100px;
+  color: #000;
+}
+
+.head-title p {
+  font-size: .8rem;
+  color: #000;
+  font-weight: 600;
+  margin: 10px 0 30px 100px;
+}
+
+.hero-btn {
+  font-size: 2 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  border-radius: 3px !important;
+  margin: 10px 0 70px 100px;
+}
+
+.numbers {
+  padding-top: 20px;
+  margin-bottom: 150px;
+  background-color: #f7f7f7;
+}
+
+#company {
+  background-color: #f7f7f7;
+  margin-bottom: 80px;
+}
+
+.company-sub-title {
+  font-size: 1.2rem;
+  font-family: "inter";
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.company-title {
+  margin-bottom: 20px;
+}
+
+.company-text {
+  font-size: .7rem;
+  font-weight: 600;
+  color: #000;
+}
+
+#feature {
+  text-align: center;
+  padding: 0;
+}
+
+.feature-logo {
+  width: 30%;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+.feature-heading {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+#strategies {
+  background-color: #f7f7f7;
+  padding-top: 90px;
+}
+
+.strategies-icon {
+  width: 15%;
+  margin-right: 10px;
+  background-color: #e8e8e8;
+  border-radius: 50%;
+}
+
+.strategies-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.strategies-text {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+@media (max-width: 960px) {
+  .head-image {
+    position: relative;
+    width: 100%;
+    margin-left: 16px;
+  }
+  .numbers {
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 765px) {
+  .feature-logo {
+    width: 20%;
+    margin-bottom: 40px;
+  }
+  .strategies-text {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: .9rem;
+  }
+  #company {
+    background-color: #f7f7f7;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  .company-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .company-text {
+    font-size: .7rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 100px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
